@@ -1,6 +1,20 @@
-- School: Princeton
-  Degree: 
-  Program: School of Public and International Affairs
-  Start Date: 
-  End Date: 
-  Icon: /assets/img/icons/2x/princeton-crop.png      # Make this icon small, think 30px/30px
+- School: McMaster University
+  Degree: Doctor of Philosophy
+  Program: Chemical Engineering
+  StartDate: Sep 2015 
+  EndDate: Aug 2019
+  Icon: /assets/img/icons/icon_small/McMaster.jpg     # Make this icon small, think 30px/30px
+  
+- School: East China University of Science and Technology 
+  Degree: Master of Science
+  Program: Fluid Machinery and Engineering
+  StartDate: Sep 2012 
+  EndDate: Jun 2015
+  Icon: /assets/img/icons/icon_small/ECUST.jpg     # Make this icon small, think 30px/30px
+  
+- School: East China University of Science and Technology 
+  Degree: Bachelor of Engineering
+  Program: Mechanical and Power Engineering
+  StartDate: Sep 2008 
+  EndDate: Aug 2012
+  Icon: /assets/img/icons/icon_small/ECUST.jpg     # Make this icon small, think 30px/30px

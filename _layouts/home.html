@@ -98,13 +98,28 @@ layout: default
                     <a href="{{ projects.link }}"><img src="{{ projects.image }}" class="mr-3 mb-2 img-thumbnail border-0" alt="..."></a>
                     <div class="media-body">
                       <h5 class="mt-0"><a href="{{ projects.link }}" class="highlighted">{{ projects.name }}</a></h5>
-                      {{ projects.description }}
+                      <h6><b>@{{ projects.location }}</b> 
+                      <i>(  
+                        {% if projects.startDate %}                      
+                            {{ projects.startDate }} -         
+                        {% endif %} 
+                        {% if projects.endDate %}                      
+                            {{ projects.endDate }}       
+                        {% endif %}   
+                      )</i></h6>                         
+                      <p>{{ projects.description }}
+                      {% if projects.ref %}
+                        {% for ref in projects.ref %}
+                            <br><i>{{ref}}</i>
+                        {% endfor %}                            
+                      {% endif %}  
+                      </p>
                       {% if projects.tech %}
                         <h6><mark><u>Technologies</u></mark></h6>
                         {% for tech in projects.tech %}
                         <span class="badge badge-secondary mr-1" style="background-color:{{ theme.projects-color }};">{{ tech }}</span>
                         {% endfor %}
-                      {% endif %}
+                      {% endif %}                    
                     </div>
                   </div>
                   {% endfor %}

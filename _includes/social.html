@@ -20,6 +20,12 @@
             <i class="fab fa-linkedin fa-lg"></i></a>
         </span>
     {% endif %}
+    {% if site.researchgate %}
+        <a href="https://www.researchgate.net/profile/{{ site.researchgate }}">
+        <span style="color: {{ theme.social-color }};">
+            <i class="fab fa-researchgate fa-lg"></i></a>
+        </span>
+    {% endif %}
     {% if site.codepen %}
         <a href="https://codepen.io/{{ site.codepen }}">
         <span style="color: {{ theme.social-color }};">
@@ -44,5 +50,11 @@
             <i class="fab fa-keybase"></i></a>
         </span>
     {% endif %} 
+    {% if site.googlescholar %}
+        <a href="https://scholar.google.ca/{{site.googlescholar}}">
+        <span style="color: {{ theme.social-color }};">
+            <i class="fab fa-google fa-lg"></i></a>
+        </span>
+    {% endif %}    
     <i> &nbsp;&nbsp; </i>
 </span>

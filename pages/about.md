@@ -7,21 +7,44 @@ header-img:
 last-updated: 2020-10-30 5:55 PM
 ---
 
+
+![drawing](/assets/img/avatar/Lu_Zhu.jpg){: width="750px"}
+
 <h1 class="mx-auto" style="font-family:Courgette;">{{ page.title }}</h1>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero id faucibus nisl tincidunt eget. Cursus metus aliquam eleifend mi in nulla posuere sollicitudin. Duis convallis convallis tellus id interdum velit. Ultricies mi eget mauris pharetra et. Odio pellentesque diam volutpat commodo sed egestas. Eu mi bibendum neque egestas congue quisque. Augue lacus viverra vitae congue eu consequat ac felis donec. Ultrices vitae auctor eu augue ut lectus arcu. Eu consequat ac felis donec et. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper eget.
+Lu Zhu is a Research Associate at DAMTP, University of Cambrdige. His current focuses of research are the numerical modeling of stratified flows in an inclined duct. Before that, he was a Postdoc Fellow at McMaster University, focusing on industrial reactor scale-up. Lu Zhu earned his Ph.D. (2019) from McMaster University. His project targeted to understand the complex polymer-vortex-turbulence interactions in plane channel flows. He got a M.S. (2015) and a B.E. (2012) at East China University of Science and Technology.
 
+Lu's current research interests include computational fluid dynamics, polymer materials, stratified flows, complex fluids and flows, turbulence, artificial Intelligent, optimization, high performance computing. He has authored over 10 publications.
 
-*This is an example of code*
-```js
-<script>
-    $(document).ready(function() {
-        $(".toast").toast('show');
-    });
-</script>
-```
+<h1 class="mx-auto" style="font-family:Courgette;">Education</h1>
 
-Semper eget duis at tellus at urna condimentum. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Suspendisse faucibus interdum posuere lorem ipsum dolor. Volutpat commodo sed egestas egestas fringilla phasellus faucibus. Maecenas accumsan lacus vel facilisis volutpat est velit egestas dui. Massa placerat duis ultricies lacus. Fermentum et sollicitudin ac orci phasellus egestas tellus. Placerat orci nulla pellentesque dignissim enim sit amet. Tellus mauris a diam maecenas sed enim. Tortor vitae purus faucibus ornare. Lectus quam id leo in vitae turpis massa. Porttitor eget dolor morbi non arcu risus quis varius. Felis eget nunc lobortis mattis aliquam. Integer vitae justo eget magna fermentum.
+**Doctor of Philosophy**@Chemical Enginnering, McMaster University _(Sep 2015 - Aug 2019)_<br>
+  - Key Words: CFD, turbulence, polymer additives drag reduction, vortex tracking.
+  - [Thesis](https://macsphere.mcmaster.ca/handle/11375/24887): Inertia- and elasticity-driven turbulence in viscoelastic fluids with high levels of drag reduction 
 
-Egestas congue quisque egestas diam in arcu cursus euismod quis. Ullamcorper eget nulla facilisi etiam dignissim diam. Nunc pulvinar sapien et ligula ullamcorper. Turpis in eu mi bibendum. Faucibus scelerisque eleifend donec pretium vulputate. Euismod lacinia at quis risus sed vulputate odio ut enim. Phasellus faucibus scelerisque eleifend donec pretium. Non enim praesent elementum facilisis leo vel fringilla est ullamcorper. Quis auctor elit sed vulputate. Eu mi bibendum neque egestas. Eu turpis egestas pretium aenean pharetra magna ac. Augue ut lectus arcu bibendum at. Urna condimentum mattis pellentesque id nibh tortor id aliquet lectus. Fermentum leo vel orci porta non pulvinar. Pellentesque eu tincidunt tortor aliquam nulla facilisi. Amet commodo nulla facilisi nullam vehicula ipsum a arcu.
+**Master of Science**@Fluid Machinery and Engineering, East China Univ. of Sci. and Tech. _(Sep 2012 - Aug 2015)_<br>
+  - Key Words: Galvanizing zinc pot, multi-physics coupling, CFD, Ansys.
+  - [Thesis](https://kns-cnki-net.ezp.lib.cam.ac.uk/kcms/detail/detail.aspx?dbcode=CMFD&dbname=CMFD201502&filename=1015322614.nh&uniplatform=NZKPT&v=7ok5LPD_arhjuIRqGhdRJfw8AjW69QMJyFczh4xNq1vInJFGKZWGKfhPKoevAQ83): Numerical study of thermal and flow fields in a galvanizing zinc plot 热镀锌锌锅中的流动与传热数值研究 
+
+**Bachelor of Engineering**@Mechanical and Power Engineering, East China Univ. of Sci. and Tech. _(Sep 2008 - Aug 2012)_<br>
+  - Majored in Progress Equipment and Control Engineering.
+  - Main Courses: Engineering Fluid Mechanics, Mechanical Design, Machinery Principles.
+
+<h1 class="mx-auto" style="font-family:Courgette;">Employment</h1>
+
+**Research Associate**@DAMTP, University of Cambridge _(May 2021 - )_<br>
+  - Working with Prof. Paul F. Linden and Prof. Rich Kerswell.
+  - Focusing on the numerical modelling of stratified turbulent flows in a stratified inclined duct.
+ 
+ **Postdoctoral Fellow**@Chemical Engineering, McMaster University _(May 2020 - May 2021)_<br>
+  - Supervised by Dr. Prashant Mhaskar and Dr. Li Xi.
+  - Provided guidance to the industrial reactor scale-up process with CFD, crystallization kinetics modelling, and machine learning techniques.
+
+ **Postdoctoral Research Assistant**@Chemical Engineering, McMaster University _(Oct 2019 - May 2020)_<br>
+  - Supervised by and Dr. Li Xi.
+  - directed to elastoinertial turbulence in channel flows.
+
+ **Graduate Research Assistant**@Chemical Engineering, McMaster University  _(Sep 2015 - Aug 2019)_<br>
+   - Supervised by Dr. Li Xi. 
+   - targeted to understand polymer additive drag reduction in turbulent channel flow.
 

@@ -1,24 +1,24 @@
-- School: Harvard
+- School: McMaster University
   Degree: 
-  Program: POL 240/SPI 312 International Relations
-  id: POL-240/SPI-312-International-Relations
-  data-id: data-harv1
-  heading-id: head-harv1
-  StartDate: 08/30/2019
-  EndDate: 08/30/2020
+  Program: CHEMENG 2O04 Fluid Mechanics
+  id: 
+  data-id: 
+  heading-id: 
+  StartDate: Jan 2016
+  EndDate:  Apr 2019
   first: true   # one must be true to properly display
   description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    Graduate Teaching Assistant responsible for leading tutorials and office hours.
 
-- School: Princeton
+- School: McMaster University
   Degree: 
-  Program: POL 380 Human Rights
-  id: POL-380-Human-Rights
-  data-id: data-princ1   
-  heading-id: head-princ1  # This can be any random string as long as each teaching set has a unique one. 
-  StartDate: 08/30/2019
-  EndDate: 08/30/2020
+  Program: Undergraduate summer internship
+  id: 
+  data-id: 
+  heading-id:   # This can be any random string as long as each teaching set has a unique one. 
+  StartDate: May 2016
+  EndDate: Aug 2020
   first: false
   Icon: /assets/img/icons/2x/princeton-crop.png      # Make this icon small, think 30px/30px
   description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    Mentor of the summer internship of undergraduates.

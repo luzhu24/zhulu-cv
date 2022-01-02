@@ -1,47 +1,96 @@
-- name: Project 1
+- name: Numerical study of stratified flows in an inclined duct
   id: project1
   description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+    Working with Prof. Paul F. Linden and Prof. Rich Kerswell, we attempt to understand the transition to stratified turbulence in a sustained shear flow in a stratified inclined duct apparatus.
   date: true
-  link: https://example.com
-  image:  http://placehold.it/100x100
+  startDate: May 2021 
+  endDate: 
+  location: DAMTP, University of Cambridge
+  #link: https://example.com
+  image:  /assets/img/icons/icon_small/Cambridge.jpg
   tech: 
     - python
+    - c++
+    - DNS
+    - machine learning
 
 
-- name: Project 2
+- name: Study on the dynamics of vortices with a vortex tracking algorithm - VATIP 
   id: project2
   description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.   
+    The dynamics and statistics of turbulence are highly influenced by vortices. With the newly developed vortex tracking algorithm, we sort through all kinds of vortices and study the influece of polymers on the shape of vortices. The project is supervised by Dr. Li Xi.
   date: true
-  link: https://example.com
-  image: http://placehold.it/100x100
+  startDate: Jun 2016
+  endDate: 
+  location: Dept. of Chemical Engineering, McMaster University  
+  link: vatip.html #/assets/img/posts/vortex/VATIP_tracking_method.png #https://example.com
+  image: /assets/img/icons/icon_small/McMaster.jpg
+  ref: 
+    - 1. Zhu, L. & Xi, L. (2019). Vortex dynamics in low- and high-extent polymer drag reduction regimes revealed by vortex tracking and conformation analysis. Phys. Fluids, 31(9), 095103.
+    - 2. Zhu, L. & Xi, L. (2019). Vortex axis tracking by iterative propagation (VATIP) A method for analysing three-dimensional turbulent structures. J. Fluid Mech., 866, 169-215.
+    - 3. Zhu, L. & Xi, L. (2018). Coherent structure dynamics and identification during the multistage transitions of polymeric turbulent channel flow. J. Phys. Conf. Ser. 1001.
   tech: 
-    - c++
+    - python
+    - DNS
 
-- name: Project 3
+
+
+- name: Understanding of polymer-turbulence interfactions in polymeric flows
   id: project3
   description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.   
+    Adding a small amount of polymers into the polymeric turbulence can drastically reduce the flow friction drag and enhance transportation efficiency. This project targets to understand the complex polymer-vortex-turbulence interactions using some numerical tools, e.g., DNS and mechine learning. The project is supervised by Dr. Li Xi.
   date: true
-  link: https://example.com
-  image:  http://placehold.it/100x100
+  startDate: Sep 2015
+  endDate: 
+  location: Dept. of Chemical Engineering, McMaster University  
+  link: /assets/img/posts/polymer_flow/dynmaic-cycle_ins.png
+  image: /assets/img/icons/icon_small/McMaster.jpg
+  ref: 
+    - 1. Zhu, L. & Xi, L. (2021). Non-asymptotic elastoinertial turbulence for asymptotic drag reduction. Phys. Rev. Fluids, 014601.
+    - 2. Zhu, L. & Xi, L. (2020). Inertia-driven and elastoinertial viscoelastic turbulent channel flow simulated with a hybrid pseudo-spectral/finite-difference numerical scheme. J. Non-Newton. Fluid Mech, 286, 104410. 
+    - 3. Zhu, L., Bai, X., Krushelnycky, E. & Xi, L. (2019). Transient dynamics of turbulence growth and bursting Effects of drag-reducing polymers. J. Non-Newton. Fluid Mech., 266, 127-142.
+    - 4. Zhu, L., Schrobsdorff, H., Schneider, T. M. & Xi, L. (2018). Distinct transition in flow statistics and vortex dynamics between low-and high-extent turbulent drag reduction in polymer fluids. J. Non-Newton. Fluid Mech., 262, 115-130.
+    - 
   tech: 
-    - Java
-    - Maven
-    - Jenkins
+    - python
+    - c++   
+    - DNS
+    - machine learning
 
-- name: Project 4
+
+
+- name: Investigation of crystallization kinetics in industrial semi-batched reactors
   id: project4
   description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 0
+    In this project, we worked with our industrial counterparts to investigate the crystalization process in lab- and industry-level semi-batched reactors. The mixing performance is investigated by CFD technology. The crystallization kinetics is understanded using the population balance models and data-driven models. The project is supervised by Dr. Li Xi and Prof. Prashant Mhaskar.
   date: true
-  link: https://example.com
-  image: http://placehold.it/100x100
+  startDate: May 2020
+  endDate: May 2021
+  location: Dept. of Chemical Engineering, McMaster University  
+  #link: https://example.com
+  image: /assets/img/icons/icon_small/McMaster.jpg
   tech: 
-    - Sonarcube
-    - Java
+    - python  
+    - RANS
+    - Ansys
+    - crystallization kinetic model
+    - data-driven modeling
+    
+    
+
+- name: Study on the thermal and flow dynamics in a galvanizing zinc pot
+  id: project4
+  description: >
+    This project aims to analyze the thermal and flow behaviors in a galvanizing zinc pot, in order to achieve an optimal coating performance. A muti-physics system is built which couples the electromagnetic field with the flow and thermal fields to approach the realistic condition. The project is supervised by Prof. Huanxin Lai.
+  date: true
+  startDate: Sep 2012
+  endDate: Jun 2015
+  location: Fluid Machinery and Engineering, East China University of Science and Technology 
+  #link: https://example.com
+  image: /assets/img/icons/icon_small/ECUST.jpg
+  tech: 
+    - python  
+    - RANS
+    - Ansys
+    - crystallization kinetic model
+    - data-driven modeling

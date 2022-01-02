@@ -1,9 +1,13 @@
 ---
 layout: home
 title: 
-date: 2020-11-20 
+date: 2022-01-01 
 ---
-### Hi, I'm Dumbarton 👋
-Dumbarton is a Jekyll Theme developed by [Tyler Butler](https://github.com/tcbutler320). The theme is designed for academics and features a simple home page with an about me section and an interactive highlights section to describe publications, coursework, courses taught, and projects. You can checkout the project on [Github](https://github.com/tcbutler320/Jekyll-Theme-Dumbarton), feel free to make contributions and feature requests and don't forget to give it a star.
+### Hi, I'm Lu Zhu 👋
+I am a Research Associate at Department of Applied Mathematics and Theoretical Physics, University of Cambrdige. My current focuses of research are the numerical modeling of stratified flow in an inclined duct. We hope to better understand the transition and mixing of stratified flows in our work. My Ph.D. project at Department of Chemical Engineering, McMaster University studied polymer-vortex interactions and viscoelastic turbulence in plane channel flows.
 
-<a href="/contact.html" class="highlighted">Contact Me</a>
+My research interests include:
+
+Computational fluid dynamics; Polymer materials; Stratified flows; Complex fluids and flows; Turbulence; Artificial Intelligent; Optimization; High performance computing.
+
+<a href="/contact.html" class="highlighted"><b>Contact Me</b></a>
