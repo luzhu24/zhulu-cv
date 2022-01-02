@@ -12,7 +12,7 @@ title: Zhu Lu
 email: zlinterface@gmail.com
 description: Research Associate at University of Cambridge
 baseurl:  /zhulu-cv                                # the subpath of your site, e.g. /blog
-url:          # the base hostname & protocol for your site, e.g. http://example.com
+url:   "https://github.com/luzhu24/zhulu-cv.git"       # the base hostname & protocol for your site, e.g. http://example.com
 image: /assets/img/avatar/IMG_1937_corp.jpg            # used to generate site link preview
 image_alt: Lu Zhu - 2016    # image description
 
@@ -20,7 +20,7 @@ image_alt: Lu Zhu - 2016    # image description
 # -----------SITE SETTINGS---------------#
 #========================================#: 
 author: Lu Zhu
-profile_image: /assets/img/avatar/IMG_1937_corp.jpg  #/assets/img/avatar/avatar.jpeg 
+profile_image: /assets/img/avatar/IMG_1937_corp.jpg  
 occupation: Research Associate
 snippet:
 twitter: 
