@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+
+<html>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--
+  The above 2 meta tags *must* come first in the <head>
+  to consistently ensure proper document rendering.
+  Any other head element should come *after* these tags.
+ -->
+<title>Zhu Lu</title>
+<!-- Set the base URL for all relative URLs within the document -->
+<base href="">
+
+<!--
+  Allows control over where resources are loaded from.
+  Place as early in the <head> as possible, as the tag  
+  only applies to resources that are declared after it.
+-->
+
+<!-- Short description of the document (limit to 150 characters) -->
+<!-- This content *may* be used as a part of search engine results. -->
+<meta name="description" content="Research Associate at University of Cambridge">
+
+<!-- Control the behavior of search engine crawling and indexing -->
+<meta name="robots" content="index,follow"><!-- All Search Engines -->
+<meta name="googlebot" content="index,follow"><!-- Google Specific -->
+
+<!-- Verify website ownership -->
+<meta name="google-site-verification" content=""><!-- Google Search Console -->
+<meta name="yandex-verification" content=""><!-- Yandex Webmasters -->
+<meta name="msvalidate.01" content=""><!-- Bing Webmaster Center -->
+<meta name="alexaVerifyID" content=""><!-- Alexa Console -->
+<meta name="p:domain_verify" content=""><!-- Pinterest Console-->
+<meta name="norton-safeweb-site-verification" content=""><!-- Norton Safe Web -->
+
+<!-- Allows control over how referrer information is passed -->
+<meta name="referrer" content="no-referrer">
+
+<!-- Disable automatic detection and formatting of possible phone numbers -->
+<meta name="format-detection" content="telephone=true">
+
+<!-- Completely opt out of DNS prefetching by setting to "off" -->
+<meta http-equiv="x-dns-prefetch-control" content="on">
+
+<!-- Geo tags -->
+<!-- meta name="ICBM" content="latitude, longitude"-->
+<!-- meta name="geo.position" content="latitude;longitude"-->
+<!-- meta name="geo.region" content="country[-state]"><Country code (ISO 3166-1): mandatory, state code (ISO 3166-2): optional; eg. content="US" / content="US-NY" -->
+<!-- meta name="geo.placename" content="city/town"><eg. content="New York City" -->
+
+<!-- Link to an external CSS file -->
+<link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Courgette&family=Lobster&family=Pacifico&family=Yellowtail&family=Noto+Sans+JP:wght@400;900&family=Poppins:wght@500&family=Righteous&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="/css/main.css">
+<!-- BootStrap CDN --> 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<script src="https://kit.fontawesome.com/32a2b2a489.js" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script> 
+
+<!--  GIT TALK CDN  for comment system -->
+<!--
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script> -->
+
+
+<!-- Provides information about an author or another person -->
+<link rel="me" href="mailto:mailto:zlinterface@gmail.com">
+<link rel="me" href="sms:+">
+
+<!-- Open Search -->
+<!-- link rel="search" href="/open-search.xml" type="application/opensearchdescription+xml" title="Search Title" -->
+
+<!-- Feeds -->
+<!-- link rel="alternate" href="https://feeds.feedburner.com/example" type="application/rss+xml" title="RSS" -->
+<!-- link rel="alternate" href="https://example.com/feed.atom" type="application/atom+xml" title="Atom 0.3" -->
+
+<!-- For IE 10 and below -->
+<!-- Place favicon.ico in the root directory - no tag necessary -->
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/icons/favicon-16x16.png">
+<link rel="mask-icon" href="/assets/img/icons/safari-pinned-tab.svg" color="#5bbad5">
+
+<meta property="fb:app_id" content="">
+<meta property="og:url" content="/publications.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="">
+<meta property="og:image" content="">
+<meta property="og:image:alt" content="">
+<meta property="og:description" content="">
+<meta property="og:site_name" content="Publications">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@">
+<meta name="twitter:creator" content="@">
+<meta name="twitter:url" content="/publications.html">
+<meta name="twitter:title" content="">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="">
+<meta name="twitter:image:alt" content="">
+
+<!-- Used for adding in-document CSS -->
+
+
+
+<!-- JavaScript & No-JavaScript tags -->
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<!--
+<script>
+    $(document).ready(function() {
+        $(".toast").toast('show');
+    });
+</script> -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js"></script>
+
+<noscript>
+  <!-- No JS alternative -->
+</noscript>
+
+  <body>
+    
+<nav class="navbar navbar-expand-lg glowing-border mb-4" style="font-family:Poppins;background-color:#10292e;">
+  <a class="navbar-brand" href="/zhulu-cv/index.html"><h4 style="font-family:Noto Sans JP;font-weight:600;color:#149f98;">Zhu Lu</h4></a>
+  <button class="navbar-toggler text-black" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-caret-down"></i>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+        
+              <li class="nav-item">
+                  <a href="about.html" class="nav-link" style="font-family:Poppins;color:#149f98;">About</a>
+              </li>
+        
+              <li class="nav-item">
+                  <a href="publications.html" class="nav-link" style="font-family:Poppins;color:#149f98;">Publications</a>
+              </li>
+        
+              <li class="nav-item">
+                  <a href="blog.html" class="nav-link" style="font-family:Poppins;color:#149f98;">Blog</a>
+              </li>
+        
+              <li class="nav-item">
+                  <a href="/assets/pdf/vitae.pdf" class="nav-link" style="font-family:Poppins;color:#149f98;">Vitae</a>
+              </li>
+        
+              <li class="nav-item">
+                  <a href="contact.html" class="nav-link" style="font-family:Poppins;color:#149f98;">Contact</a>
+              </li>
+        
+    </ul>
+    <ul class="navbar-nav  justify-content-end">
+      <li class="nav-item">
+        
+<!-- Displays Social Media Icons based on _config.yml settings -->
+<span style="color:#CCCCCC;">
+    <i> &nbsp;&nbsp; </i>
+    
+    
+        <a href="https://github.com/luzhu24">
+        <span style="color: #CCCCCC;">
+            <i class="fab fa-github-square fa-lg"></i></a>
+        </span>
+    
+    
+        <a href="https://www.linkedin.com/in/lu-zhu-i2">
+        <span style="color: #CCCCCC;">
+            <i class="fab fa-linkedin fa-lg"></i></a>
+        </span>
+    
+    
+        <a href="https://www.researchgate.net/profile/Lu-Zhu-3">
+        <span style="color: #CCCCCC;">
+            <i class="fab fa-researchgate fa-lg"></i></a>
+        </span>
+    
+    
+    
+    
+     
+    
+        <a href="https://scholar.google.ca/citations?user=7T1QgMMAAAAJ&hl=en">
+        <span style="color: #CCCCCC;">
+            <i class="fab fa-google fa-lg"></i></a>
+        </span>
+        
+    <i> &nbsp;&nbsp; </i>
+</span>
+
+      </li>
+    </ul>
+  </div>
+</nav>
+
+    <div class="container">
+      
+      <div class="card border-0">
+          <div class="card-body">
+            <p class="card-text">
+                
+<div class="blogcard  card-1 mb-4" style="width: 100%;">
+  <div class="card-body">
+    <h5 class="card-title text-center" style="font-size:36px;font-weight:700;">Publications</h5>
+  </div>
+</div>
+
+<h4> For a full list of papers, please find my <a href="https://www.researchgate.net/profile/Lu-Zhu-3" class="highlighted">Researchgate</a>, <a href="https://scholar.google.ca/citations?user=7T1QgMMAAAAJ&hl=en" class="highlighted">GoogleScholar</a>. </h4>
+
+<h4><b>Selected publication: </b></h4>
+<ol class="bibliography"><li><div class="row">
+  <div id="Zhu_PhD2019" class="col-sm-8">
+    
+      <div class="title font-weight-bold">Inertia- and elasticity-driven turbulence in viscoelastic fluids with high levels of drag reduction</div>
+      <div class="author">
+        
+          
+            
+              L. Zhu, 
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+      
+        2019
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+      <a href="http://hdl.handle.net/11375/24887" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div></li>
+<li><div class="row">
+  <div id="Zhu_Xi_JPhysCS2018" class="col-sm-8">
+    
+      <div class="title font-weight-bold">Coherent structure dynamics and identification during the multistage transitions of polymeric turbulent channel flow</div>
+      <div class="author">
+        
+          
+            
+              
+                <em>Zhu, Lu</em>,
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Xi, Li
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Journal of Physics: Conference Series</em>
+      
+      
+        2018
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+      <a href="https://iopscience.iop.org/article/10.1088/1742-6596/1001/1/012005/meta" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div></li>
+<li><div class="row">
+  <div id="Zhu_Xi_JNNFM2018" class="col-sm-8">
+    
+      <div class="title font-weight-bold">Distinct transition in flow statistics and vortex dynamics between low- and high-extent turbulent drag reduction in polymer fluids</div>
+      <div class="author">
+        
+          
+            
+              
+                <em>Zhu, Lu</em>,
+              
+            
+          
+        
+          
+            
+              
+                
+                  Schrobsdorff, Hecke,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Schneider, Tobias M.,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Xi, Li
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Journal of Non-Newtonian Fluid Mechanics</em>
+      
+      
+        2018
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+      <a href="https://www.sciencedirect.com/science/article/abs/pii/S0377025717304846" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div></li>
+<li><div class="row">
+  <div id="Zhu_Xi_JNNFM2019" class="col-sm-8">
+    
+      <div class="title font-weight-bold">Transient dynamics of turbulence growth and bursting: effects of drag-reducing polymers</div>
+      <div class="author">
+        
+          
+            
+              
+                <em>Zhu, Lu</em>,
+              
+            
+          
+        
+          
+            
+              
+                
+                  Bai, Xue,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Krushelnycky, Evan,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Xi, Li
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Journal of Non-Newtonian Fluid Mechanics</em>
+      
+      
+        2019
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+      <a href="https://www.sciencedirect.com/science/article/abs/pii/S0377025718302222" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div></li>
+<li><div class="row">
+  <div id="Zhu_Xi_JFM2019" class="col-sm-8">
+    
+      <div class="title font-weight-bold">Vortex axis tracking by iterative propagation (VATIP): a method for analyzing three-dimensional turbulent structures</div>
+      <div class="author">
+        
+          
+            
+              
+                <em>Zhu, Lu</em>,
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Xi, Li
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Journal of Fluid Mechanics</em>
+      
+      
+        2019
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+      <a href="https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/abs/vortex-axis-tracking-by-iterative-propagation-vatip-a-method-for-analysing-threedimensional-turbulent-structures/3C2159C731827AFA1A65EE6CF5F626FA" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div></li>
+<li><div class="row">
+  <div id="Zhu_Xi_POF2019" class="col-sm-8">
+    
+      <div class="title font-weight-bold">Vortex dynamics in low- and high-extent polymer drag reduction regimes revealed by vortex tracking and conformation analysis</div>
+      <div class="author">
+        
+          
+            
+              
+                <em>Zhu, Lu</em>,
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Xi, Li
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Physics of Fluids</em>
+      
+      
+        2019
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+      <a href="https://aip.scitation.org/doi/abs/10.1063/1.5118251" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div></li>
+<li><div class="row">
+  <div id="Zhu_XiJNNFM2020" class="col-sm-8">
+    
+      <div class="title font-weight-bold">Inertia-driven and elastoinertial viscoelastic turbulent channel flow simulated with a hybrid pseudo-spectral/finite-difference numerical scheme</div>
+      <div class="author">
+        
+          
+            
+              
+                <em>Zhu, Lu</em>,
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Xi, Li
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Journal of Non-Newtonian Fluid Mechanics</em>
+      
+      
+        2020
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+      <a href="https://www.sciencedirect.com/science/article/abs/pii/S0377025720301622" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div></li>
+<li><div class="row">
+  <div id="Zhu_XiPRFluids2021" class="col-sm-8">
+    
+      <div class="title font-weight-bold">Nonasymptotic elastoinertial turbulence for asymptotic drag reduction</div>
+      <div class="author">
+        
+          
+            
+              
+                <em>Zhu, Lu</em>,
+              
+            
+          
+        
+          
+            
+              
+                
+                  Xi, Li,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and others, 
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Physical Review Fluids</em>
+      
+      
+        2021
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+      <a href="https://journals.aps.org/prfluids/abstract/10.1103/PhysRevFluids.6.014601" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div></li>
+<li><div class="row">
+  <div id="Zhang_Li_ZhuEP2021" class="col-sm-8">
+    
+      <div class="title font-weight-bold">Real-time prediction of river chloride concentration using ensemble learning</div>
+      <div class="author">
+        
+          
+            
+              
+                
+                  Zhang, Qianqian,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Li, Zhong,
+                
+              
+            
+          
+        
+          
+            
+              
+                <em>Zhu, Lu</em>,
+              
+            
+          
+        
+          
+            
+              
+                
+                  Zhang, Fei,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Sekerinski, Emil,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Han, Jing-Cheng,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Zhou, Yang
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Environmental Pollution</em>
+      
+      
+        2021
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+      <a href="https://www.sciencedirect.com/science/article/abs/pii/S0269749121016985" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div></li></ol>
+
+
+
+
+            </p>
+            
+              <p class="card-text"><small class="text-muted">This page was last updated at 2022-01-03 00:08.</small></p>
+            
+          </div>
+      </div>
+      
+    </div>
+    <div class="navbar navbar-default navbar-fixed-bottom">
+  <div class="container">
+    <p class="navbar-text pull-left">© 2020 - Theme Built By Tyler Butler, See it on
+        <a href="https://github.com/tcbutler320/Jekyll-Theme-Dumbarton" target="_blank" >GitHub</a>
+    </p>
+    <p class="navbar-text pull-right">
+            <!-- Displays Social Media Icons based on _config.yml settings -->
+
+<span style="color: Black;">
+     
+    
+        <a href="https://github.com/luzhu24">
+        <span style="color: black;">
+            <i class="fab fa-github-square fa-lg"></i></a>
+        </span>
+    
+    
+        <a href="https://www.linkedin.com/in/lu-zhu-i2">
+        <span style="color: black;">
+            <i class="fab fa-linkedin fa-lg"></i></a>
+        </span>
+    
+    
+    
+    
+     
+    <i> &nbsp;&nbsp; </i>
+</span>
+
+    </p>
+  </div>
+</div> 
+
+<script>
+  $(function () {
+    $('[data-toggle="popover"]').popover()
+  })
+</script>
+  </body>
+</html>

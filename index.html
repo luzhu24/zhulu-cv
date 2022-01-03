@@ -1,0 +1,1556 @@
+<!DOCTYPE html>
+
+<html>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--
+  The above 2 meta tags *must* come first in the <head>
+  to consistently ensure proper document rendering.
+  Any other head element should come *after* these tags.
+ -->
+<title>Zhu Lu</title>
+<!-- Set the base URL for all relative URLs within the document -->
+<base href="">
+
+<!--
+  Allows control over where resources are loaded from.
+  Place as early in the <head> as possible, as the tag  
+  only applies to resources that are declared after it.
+-->
+
+<!-- Short description of the document (limit to 150 characters) -->
+<!-- This content *may* be used as a part of search engine results. -->
+<meta name="description" content="Research Associate at University of Cambridge">
+
+<!-- Control the behavior of search engine crawling and indexing -->
+<meta name="robots" content="index,follow"><!-- All Search Engines -->
+<meta name="googlebot" content="index,follow"><!-- Google Specific -->
+
+<!-- Verify website ownership -->
+<meta name="google-site-verification" content=""><!-- Google Search Console -->
+<meta name="yandex-verification" content=""><!-- Yandex Webmasters -->
+<meta name="msvalidate.01" content=""><!-- Bing Webmaster Center -->
+<meta name="alexaVerifyID" content=""><!-- Alexa Console -->
+<meta name="p:domain_verify" content=""><!-- Pinterest Console-->
+<meta name="norton-safeweb-site-verification" content=""><!-- Norton Safe Web -->
+
+<!-- Allows control over how referrer information is passed -->
+<meta name="referrer" content="no-referrer">
+
+<!-- Disable automatic detection and formatting of possible phone numbers -->
+<meta name="format-detection" content="telephone=true">
+
+<!-- Completely opt out of DNS prefetching by setting to "off" -->
+<meta http-equiv="x-dns-prefetch-control" content="on">
+
+<!-- Geo tags -->
+<!-- meta name="ICBM" content="latitude, longitude"-->
+<!-- meta name="geo.position" content="latitude;longitude"-->
+<!-- meta name="geo.region" content="country[-state]"><Country code (ISO 3166-1): mandatory, state code (ISO 3166-2): optional; eg. content="US" / content="US-NY" -->
+<!-- meta name="geo.placename" content="city/town"><eg. content="New York City" -->
+
+<!-- Link to an external CSS file -->
+<link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Courgette&family=Lobster&family=Pacifico&family=Yellowtail&family=Noto+Sans+JP:wght@400;900&family=Poppins:wght@500&family=Righteous&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="/css/main.css">
+<!-- BootStrap CDN --> 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<script src="https://kit.fontawesome.com/32a2b2a489.js" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script> 
+
+<!--  GIT TALK CDN  for comment system -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script> 
+
+
+<!-- Provides information about an author or another person -->
+<link rel="me" href="mailto:mailto:zlinterface@gmail.com">
+<link rel="me" href="sms:+">
+
+<!-- Open Search -->
+<!-- link rel="search" href="/open-search.xml" type="application/opensearchdescription+xml" title="Search Title" -->
+
+<!-- Feeds -->
+<!-- link rel="alternate" href="https://feeds.feedburner.com/example" type="application/rss+xml" title="RSS" -->
+<!-- link rel="alternate" href="https://example.com/feed.atom" type="application/atom+xml" title="Atom 0.3" -->
+
+<!-- For IE 10 and below -->
+<!-- Place favicon.ico in the root directory - no tag necessary -->
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/icons/favicon-16x16.png">
+<link rel="mask-icon" href="/assets/img/icons/safari-pinned-tab.svg" color="#5bbad5">
+
+<meta property="fb:app_id" content="">
+<meta property="og:url" content="">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Zhu Lu, Research Associate at University of Cambridge">
+<meta property="og:image" content="/assets/img/avatar/IMG_1937_corp.jpg">
+<meta property="og:image:alt" content="Lu Zhu - 2016">
+<meta property="og:description" content="Research Associate at University of Cambridge">
+<meta property="og:site_name" content="Zhu Lu">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="Lu Zhu">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@">
+<meta name="twitter:creator" content="@">
+<meta name="twitter:url" content="">
+<meta name="twitter:title" content="Research Associate at University of Cambridge">
+<meta name="twitter:description" content="Research Associate at University of Cambridge">
+<meta name="twitter:image" content="/assets/img/avatar/IMG_1937_corp.jpg">
+<meta name="twitter:image:alt" content="Lu Zhu - 2016">
+
+<!-- Used for adding in-document CSS -->
+
+
+
+<!-- JavaScript & No-JavaScript tags -->
+
+<link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@10.5.0/styles/monokai-sublime.min.css">
+<script src="https://unpkg.com/@highlightjs/cdn-assets@10.5.0/highlight.min.js"></script>
+<!-- and it's easy to individually load additional languages -->
+<script src="https://unpkg.com/@highlightjs/cdn-assets@10.5.0/languages/go.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js"></script>
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<!--
+<script>
+    $(document).ready(function() {
+        $(".toast").toast('show');
+    });
+</script> -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', ');
+</script>
+
+<noscript>
+  <!-- No JS alternative -->
+</noscript>
+
+  <body style="background-color:;">
+    
+<nav class="navbar navbar-expand-lg glowing-border mb-4" style="font-family:Poppins;background-color:#10292e;">
+  <a class="navbar-brand" href="/zhulu-cv/index.html"><h4 style="font-family:Noto Sans JP;font-weight:600;color:#149f98;">Zhu Lu</h4></a>
+  <button class="navbar-toggler text-black" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-caret-down"></i>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+        
+              <li class="nav-item">
+                  <a href="about.html" class="nav-link" style="font-family:Poppins;color:#149f98;">About</a>
+              </li>
+        
+              <li class="nav-item">
+                  <a href="publications.html" class="nav-link" style="font-family:Poppins;color:#149f98;">Publications</a>
+              </li>
+        
+              <li class="nav-item">
+                  <a href="blog.html" class="nav-link" style="font-family:Poppins;color:#149f98;">Blog</a>
+              </li>
+        
+              <li class="nav-item">
+                  <a href="/assets/pdf/vitae.pdf" class="nav-link" style="font-family:Poppins;color:#149f98;">Vitae</a>
+              </li>
+        
+              <li class="nav-item">
+                  <a href="contact.html" class="nav-link" style="font-family:Poppins;color:#149f98;">Contact</a>
+              </li>
+        
+    </ul>
+    <ul class="navbar-nav  justify-content-end">
+      <li class="nav-item">
+        
+<!-- Displays Social Media Icons based on _config.yml settings -->
+<span style="color:#CCCCCC;">
+    <i> &nbsp;&nbsp; </i>
+    
+    
+        <a href="https://github.com/luzhu24">
+        <span style="color: #CCCCCC;">
+            <i class="fab fa-github-square fa-lg"></i></a>
+        </span>
+    
+    
+        <a href="https://www.linkedin.com/in/lu-zhu-i2">
+        <span style="color: #CCCCCC;">
+            <i class="fab fa-linkedin fa-lg"></i></a>
+        </span>
+    
+    
+        <a href="https://www.researchgate.net/profile/Lu-Zhu-3">
+        <span style="color: #CCCCCC;">
+            <i class="fab fa-researchgate fa-lg"></i></a>
+        </span>
+    
+    
+    
+    
+     
+    
+        <a href="https://scholar.google.ca/citations?user=7T1QgMMAAAAJ&hl=en">
+        <span style="color: #CCCCCC;">
+            <i class="fab fa-google fa-lg"></i></a>
+        </span>
+        
+    <i> &nbsp;&nbsp; </i>
+</span>
+
+      </li>
+    </ul>
+  </div>
+</nav>
+
+    <div class="dumbarton-spacer-sm"></div>
+    <div class="container">
+      
+
+<!--  HELP TIPS SECTION  -->
+<!-- used only for develop mode, disable these in _config.yml with `help_tips: false` -->
+
+
+<!-- ABOUT ME SECTION -->
+<div class="card mx-auto border-0" style="position:relative;background-color:;">
+  <div class="row">
+    <div class="col-md-4">
+      
+        <img src="/zhulu-cv/assets/img/avatar/IMG_1937_corp.jpg" class="img-thumbnail float-left animate__animated animate__fadeInLeft shadow bg-white rounded" alt="...">
+      
+    </div>
+    <!-- EDUCATION SECTION -->
+    <div class="col-md-8">
+      
+      <div class="card-body animate__animated animate__fadeInRight" style="color:;">
+      
+        <p style="color:;"><h3 id="hi-im-lu-zhu-">Hi, I’m Lu Zhu 👋</h3>
+<p>I am a Research Associate at Department of Applied Mathematics and Theoretical Physics, University of Cambrdige. My current focuses of research are the numerical modeling of stratified flow in an inclined duct. We hope to better understand the transition and mixing of stratified flows in our work. My Ph.D. project at Department of Chemical Engineering, McMaster University studied polymer-vortex interactions and viscoelastic turbulence in plane channel flows.</p>
+
+<p>My research interests include:</p>
+
+<p>Computational fluid dynamics; Polymer materials; Stratified flows; Complex fluids and flows; Turbulence; Artificial Intelligent; Optimization; High performance computing.</p>
+
+<p><a href="/contact.html" class="highlighted"><b>Contact Me</b></a></p>
+<p>
+        
+           
+  <h5 class="card-title" style="font-family:Noto Sans JP;font-size:18px;color:;">Education & Certifications</h5>
+  <ul class="list-unstyled">
+  
+    <li class="media">
+      <img src="/zhulu-cv/assets/img/icons/icon_small/McMaster.jpg" class="mr-3" alt="...">
+      <div class="media-body">
+        <h5 style="font-family:Noto Sans JP;font-size:18px;color:;">McMaster University </h5>
+        <p style="font-family:Noto Sans JP;font-size:15px;color:;"><i>Chemical Engineering (Sep 2015-Aug 2019)</i></p>
+        
+          <p><b>Doctor of Philosophy</b></p>
+                     
+      </div>
+    </li>
+    
+    <li class="media">
+      <img src="/zhulu-cv/assets/img/icons/icon_small/ECUST.jpg" class="mr-3" alt="...">
+      <div class="media-body">
+        <h5 style="font-family:Noto Sans JP;font-size:18px;color:;">East China University of Science and Technology </h5>
+        <p style="font-family:Noto Sans JP;font-size:15px;color:;"><i>Fluid Machinery and Engineering (Sep 2012-Jun 2015)</i></p>
+        
+          <p><b>Master of Science</b></p>
+                     
+      </div>
+    </li>
+    
+    <li class="media">
+      <img src="/zhulu-cv/assets/img/icons/icon_small/ECUST.jpg" class="mr-3" alt="...">
+      <div class="media-body">
+        <h5 style="font-family:Noto Sans JP;font-size:18px;color:;">East China University of Science and Technology </h5>
+        <p style="font-family:Noto Sans JP;font-size:15px;color:;"><i>Mechanical and Power Engineering (Sep 2008-Aug 2012)</i></p>
+        
+          <p><b>Bachelor of Engineering</b></p>
+                     
+      </div>
+    </li>
+    
+  </ul>
+
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- style="font-family:Poppins;background-color:#10292e; -->
+
+<!-- HOME HIGHLIGHTS SECTION --> 
+
+<div class="card mx-auto animate__animated animate__slideInUp animate__delay-1s glowing-border" style="max-width: 100%;">
+
+  <div class="card-header" style="background-color:#10292e;">
+    <ul class="nav nav-tabs card-header-tabs" id="test-list" role="tablist">
+      
+        
+          <li class="nav-item">
+            <a class="nav-link shadow-none" id="" href="#publications" role="tab" aria-controls="publications" aria-selected="true" style="font-family:Poppins;color:#149f98;"> Publications</a>
+          </li>
+        
+      
+        
+          <li class="nav-item">
+              <a class="nav-link" id="" href="#teaching" role="tab" aria-controls="teaching" aria-selected="true" style="font-family:Poppins;color:#149f98;"> Teaching</a>
+          </li>
+        
+      
+        
+          <li class="nav-item">
+              <a class="nav-link" id="" href="#presentations" role="tab" aria-controls="presentations" aria-selected="true" style="font-family:Poppins;color:#149f98;"> Presentations</a>
+          </li>
+        
+      
+        
+          <li class="nav-item">
+              <a class="nav-link" id="" href="#projects" role="tab" aria-controls="projects" aria-selected="true" style="font-family:Poppins;color:#149f98;"> Projects</a>
+          </li>
+        
+      
+    </ul>
+  </div>
+  <div class="card-body">          
+      <div class="tab-content mt-3">
+        
+          
+            
+              <div class="tab-pane active overflow-auto" id="publications" role="tabpanel">
+                <p><i></i></p>
+                <p class="card-text"><ol class="bibliography"><li><div class="row">
+  <div id="Zhu_PhD2019" class="col-sm-8">
+    
+      <div class="title font-weight-bold">Inertia- and elasticity-driven turbulence in viscoelastic fluids with high levels of drag reduction</div>
+      <div class="author">
+        
+          
+            
+              L. Zhu, 
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+      
+        2019
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+      <a href="http://hdl.handle.net/11375/24887" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div></li>
+<li><div class="row">
+  <div id="Zhu_Xi_JPhysCS2018" class="col-sm-8">
+    
+      <div class="title font-weight-bold">Coherent structure dynamics and identification during the multistage transitions of polymeric turbulent channel flow</div>
+      <div class="author">
+        
+          
+            
+              
+                <em>Zhu, Lu</em>,
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Xi, Li
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Journal of Physics: Conference Series</em>
+      
+      
+        2018
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+      <a href="https://iopscience.iop.org/article/10.1088/1742-6596/1001/1/012005/meta" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div></li>
+<li><div class="row">
+  <div id="Zhu_Xi_JNNFM2018" class="col-sm-8">
+    
+      <div class="title font-weight-bold">Distinct transition in flow statistics and vortex dynamics between low- and high-extent turbulent drag reduction in polymer fluids</div>
+      <div class="author">
+        
+          
+            
+              
+                <em>Zhu, Lu</em>,
+              
+            
+          
+        
+          
+            
+              
+                
+                  Schrobsdorff, Hecke,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Schneider, Tobias M.,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Xi, Li
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Journal of Non-Newtonian Fluid Mechanics</em>
+      
+      
+        2018
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+      <a href="https://www.sciencedirect.com/science/article/abs/pii/S0377025717304846" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div></li>
+<li><div class="row">
+  <div id="Zhu_Xi_JNNFM2019" class="col-sm-8">
+    
+      <div class="title font-weight-bold">Transient dynamics of turbulence growth and bursting: effects of drag-reducing polymers</div>
+      <div class="author">
+        
+          
+            
+              
+                <em>Zhu, Lu</em>,
+              
+            
+          
+        
+          
+            
+              
+                
+                  Bai, Xue,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Krushelnycky, Evan,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Xi, Li
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Journal of Non-Newtonian Fluid Mechanics</em>
+      
+      
+        2019
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+      <a href="https://www.sciencedirect.com/science/article/abs/pii/S0377025718302222" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div></li>
+<li><div class="row">
+  <div id="Zhu_Xi_JFM2019" class="col-sm-8">
+    
+      <div class="title font-weight-bold">Vortex axis tracking by iterative propagation (VATIP): a method for analyzing three-dimensional turbulent structures</div>
+      <div class="author">
+        
+          
+            
+              
+                <em>Zhu, Lu</em>,
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Xi, Li
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Journal of Fluid Mechanics</em>
+      
+      
+        2019
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+      <a href="https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/abs/vortex-axis-tracking-by-iterative-propagation-vatip-a-method-for-analysing-threedimensional-turbulent-structures/3C2159C731827AFA1A65EE6CF5F626FA" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div></li>
+<li><div class="row">
+  <div id="Zhu_Xi_POF2019" class="col-sm-8">
+    
+      <div class="title font-weight-bold">Vortex dynamics in low- and high-extent polymer drag reduction regimes revealed by vortex tracking and conformation analysis</div>
+      <div class="author">
+        
+          
+            
+              
+                <em>Zhu, Lu</em>,
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Xi, Li
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Physics of Fluids</em>
+      
+      
+        2019
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+      <a href="https://aip.scitation.org/doi/abs/10.1063/1.5118251" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div></li>
+<li><div class="row">
+  <div id="Zhu_XiJNNFM2020" class="col-sm-8">
+    
+      <div class="title font-weight-bold">Inertia-driven and elastoinertial viscoelastic turbulent channel flow simulated with a hybrid pseudo-spectral/finite-difference numerical scheme</div>
+      <div class="author">
+        
+          
+            
+              
+                <em>Zhu, Lu</em>,
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Xi, Li
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Journal of Non-Newtonian Fluid Mechanics</em>
+      
+      
+        2020
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+      <a href="https://www.sciencedirect.com/science/article/abs/pii/S0377025720301622" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div></li>
+<li><div class="row">
+  <div id="Zhu_XiPRFluids2021" class="col-sm-8">
+    
+      <div class="title font-weight-bold">Nonasymptotic elastoinertial turbulence for asymptotic drag reduction</div>
+      <div class="author">
+        
+          
+            
+              
+                <em>Zhu, Lu</em>,
+              
+            
+          
+        
+          
+            
+              
+                
+                  Xi, Li,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and others, 
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Physical Review Fluids</em>
+      
+      
+        2021
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+      <a href="https://journals.aps.org/prfluids/abstract/10.1103/PhysRevFluids.6.014601" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div></li>
+<li><div class="row">
+  <div id="Zhang_Li_ZhuEP2021" class="col-sm-8">
+    
+      <div class="title font-weight-bold">Real-time prediction of river chloride concentration using ensemble learning</div>
+      <div class="author">
+        
+          
+            
+              
+                
+                  Zhang, Qianqian,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Li, Zhong,
+                
+              
+            
+          
+        
+          
+            
+              
+                <em>Zhu, Lu</em>,
+              
+            
+          
+        
+          
+            
+              
+                
+                  Zhang, Fei,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Sekerinski, Emil,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Han, Jing-Cheng,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Zhou, Yang
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Environmental Pollution</em>
+      
+      
+        2021
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+      <a href="https://www.sciencedirect.com/science/article/abs/pii/S0269749121016985" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div></li></ol></p>
+              </div>
+            
+          
+        
+            
+            
+              <div class="tab-pane overflow-auto" id="teaching" role="tabpanel" aria-labelledby="teaching-tab">  
+                <p><i></i></p>
+                    
+                    <div class="list-group">
+                      <div class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                          <h5 class="mb-1"></h5>
+                          <p>CHEMENG 2O04 Fluid Mechanics</p>
+                          <small>Jan 2016 - Apr 2019</small>
+                        </div>
+                        <p class="mb-1">Graduate Teaching Assistant responsible for leading tutorials and office hours.
+</p>
+                        <small></small>
+                      </div>
+                    </div>
+                    
+                    <div class="list-group">
+                      <div class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                          <h5 class="mb-1"></h5>
+                          <p>Undergraduate summer internship</p>
+                          <small>May 2016 - Aug 2020</small>
+                        </div>
+                        <p class="mb-1">Mentor of the summer internship of undergraduates.
+</p>
+                        <small></small>
+                      </div>
+                    </div>
+                    
+              </div>
+            
+          
+        
+            
+            
+              <div class="tab-pane overflow-auto" id="presentations" role="tabpanel" aria-labelledby="presentations-tab">  
+                <p><i></i></p>
+                <p class="card-text"><ol class="bibliography"><li><div class="row">
+  <div id="zhu2019APS" class="col-sm-8">
+    
+      <div class="title font-weight-bold">Vortex axis tracking by iterative propagation (VATIP): analyzing three-dimensional vortex structures in viscous and viscoelastic turbulent flows</div>
+      <div class="author">
+        
+          
+            
+              
+                <em>Zhu, Lu</em>,
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Xi, Li
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>In APS March Meeting</em>
+      
+      
+        2019
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div></li>
+<li><div class="row">
+  <div id="zhu2018aiche" class="col-sm-8">
+    
+      <div class="title font-weight-bold">Vortex dynamics for high levels of polymer drag reduction: quantitative analysis enabled by a new vortex-tracking algorithm</div>
+      <div class="author">
+        
+          
+            
+              
+                <em>Zhu, Lu</em>,
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Xi, Li
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>In 2018 AIChE Annual Meeting</em>
+      
+      
+        2018
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div></li>
+<li><div class="row">
+  <div id="zhu2018sor" class="col-sm-8">
+    
+      <div class="title font-weight-bold">Vortex dynamics for high levels of polymer drag reduction: quantitative analysis enabled by a new vortex-tracking algorithm</div>
+      <div class="author">
+        
+          
+            
+              
+                <em>Zhu, Lu</em>,
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Xi, Li
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>In The Society of Rheology 90th Annual Meeting</em>
+      
+      
+        2018
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div></li>
+<li><div class="row">
+  <div id="zhu2017aiche" class="col-sm-8">
+    
+      <div class="title font-weight-bold">Polymer Effects on the Development and Bursting of Turbulent Vortices: Implication on High-Extent Drag Reduction</div>
+      <div class="author">
+        
+          
+            
+              
+                <em>Zhu, Lu</em>,
+              
+            
+          
+        
+          
+            
+              
+                
+                  Bai, Xue,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Xi, Li
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>In 2017 AIChE Annual Meeting</em>
+      
+      
+        2017
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div></li>
+<li><div class="row">
+  <div id="zhu2017cache" class="col-sm-8">
+    
+      <div class="title font-weight-bold"> Polymer-turbulence interactions and vortex dynamics in polymer additives turbulent channel flow</div>
+      <div class="author">
+        
+          
+            
+              
+                <em>Zhu, Lu</em>,
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Xi, Li
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>In 67th Canadian Chemical Engineering Conf.</em>
+      
+      
+        2017
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div></li>
+<li><div class="row">
+  <div id="zhu2017ICAYS" class="col-sm-8">
+    
+      <div class="title font-weight-bold"> Polymer-turbulence interactions in high-extent drag-reducing polymer flow</div>
+      <div class="author">
+        
+          
+            
+              
+                <em>Zhu, Lu</em>,
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Xi, Li
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>In International Conference in Aerospace for Young Scientists</em>
+      
+      
+        2017
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div></li></ol></p>              
+              </div>
+            
+          
+        
+            
+            
+              <div class="tab-pane overflow-auto" id="projects" role="tabpanel" aria-labelledby="projects-tab">  
+                <p><i></i></p>
+                  
+                  <div class="media mt-2">
+                    <a href=""><img src="/zhulu-cv/assets/img/icons/icon_small/Cambridge.jpg" class="mr-3 mb-2 img-thumbnail border-0" alt="..."></a>
+                    <div class="media-body">
+                      <h5 class="mt-0"><a href="" class="highlighted">Numerical study of stratified flows in an inclined duct</a></h5>
+                      <h6><b>@DAMTP, University of Cambridge</b> 
+                      <i>(  
+                                              
+                            May 2021 -         
+                         
+                           
+                      )</i></h6>                         
+                      <p>Working with Prof. Paul F. Linden and Prof. Rich Kerswell, we attempt to understand the transition to stratified turbulence in a sustained shear flow in a stratified inclined duct apparatus.
+
+                        
+                      </p>
+                      
+                        <h6><mark><u>Technologies</u></mark></h6>
+                        
+                        <span class="badge badge-secondary mr-1" style="background-color:Black;">python</span>
+                        
+                        <span class="badge badge-secondary mr-1" style="background-color:Black;">c++</span>
+                        
+                        <span class="badge badge-secondary mr-1" style="background-color:Black;">DNS</span>
+                        
+                        <span class="badge badge-secondary mr-1" style="background-color:Black;">machine learning</span>
+                        
+                                          
+                    </div>
+                  </div>
+                  
+                  <div class="media mt-2">
+                    <a href="vatip.html"><img src="/zhulu-cv/assets/img/icons/icon_small/McMaster.jpg" class="mr-3 mb-2 img-thumbnail border-0" alt="..."></a>
+                    <div class="media-body">
+                      <h5 class="mt-0"><a href="vatip.html" class="highlighted">Study on the dynamics of vortices with a vortex tracking algorithm - VATIP</a></h5>
+                      <h6><b>@Dept. of Chemical Engineering, McMaster University</b> 
+                      <i>(  
+                                              
+                            Jun 2016 -         
+                         
+                           
+                      )</i></h6>                         
+                      <p>The dynamics and statistics of turbulence are highly influenced by vortices. With the newly developed vortex tracking algorithm, we sort through all kinds of vortices and study the influece of polymers on the shape of vortices. The project is supervised by Dr. Li Xi.
+
+                      
+                        
+                            <br><i>1. Zhu, L. & Xi, L. (2019). Vortex dynamics in low- and high-extent polymer drag reduction regimes revealed by vortex tracking and conformation analysis. Phys. Fluids, 31(9), 095103.</i>
+                        
+                            <br><i>2. Zhu, L. & Xi, L. (2019). Vortex axis tracking by iterative propagation (VATIP) A method for analysing three-dimensional turbulent structures. J. Fluid Mech., 866, 169-215.</i>
+                        
+                            <br><i>3. Zhu, L. & Xi, L. (2018). Coherent structure dynamics and identification during the multistage transitions of polymeric turbulent channel flow. J. Phys. Conf. Ser. 1001.</i>
+                                                    
+                        
+                      </p>
+                      
+                        <h6><mark><u>Technologies</u></mark></h6>
+                        
+                        <span class="badge badge-secondary mr-1" style="background-color:Black;">python</span>
+                        
+                        <span class="badge badge-secondary mr-1" style="background-color:Black;">DNS</span>
+                        
+                                          
+                    </div>
+                  </div>
+                  
+                  <div class="media mt-2">
+                    <a href="/assets/img/posts/polymer_flow/dynmaic-cycle_ins.png"><img src="/zhulu-cv/assets/img/icons/icon_small/McMaster.jpg" class="mr-3 mb-2 img-thumbnail border-0" alt="..."></a>
+                    <div class="media-body">
+                      <h5 class="mt-0"><a href="/assets/img/posts/polymer_flow/dynmaic-cycle_ins.png" class="highlighted">Understanding of polymer-turbulence interfactions in polymeric flows</a></h5>
+                      <h6><b>@Dept. of Chemical Engineering, McMaster University</b> 
+                      <i>(  
+                                              
+                            Sep 2015 -         
+                         
+                           
+                      )</i></h6>                         
+                      <p>Adding a small amount of polymers into the polymeric turbulence can drastically reduce the flow friction drag and enhance transportation efficiency. This project targets to understand the complex polymer-vortex-turbulence interactions using some numerical tools, e.g., DNS and mechine learning. The project is supervised by Dr. Li Xi.
+
+                      
+                        
+                            <br><i>1. Zhu, L. & Xi, L. (2021). Non-asymptotic elastoinertial turbulence for asymptotic drag reduction. Phys. Rev. Fluids, 014601.</i>
+                        
+                            <br><i>2. Zhu, L. & Xi, L. (2020). Inertia-driven and elastoinertial viscoelastic turbulent channel flow simulated with a hybrid pseudo-spectral/finite-difference numerical scheme. J. Non-Newton. Fluid Mech, 286, 104410.</i>
+                        
+                            <br><i>3. Zhu, L., Bai, X., Krushelnycky, E. & Xi, L. (2019). Transient dynamics of turbulence growth and bursting Effects of drag-reducing polymers. J. Non-Newton. Fluid Mech., 266, 127-142.</i>
+                        
+                            <br><i>4. Zhu, L., Schrobsdorff, H., Schneider, T. M. & Xi, L. (2018). Distinct transition in flow statistics and vortex dynamics between low-and high-extent turbulent drag reduction in polymer fluids. J. Non-Newton. Fluid Mech., 262, 115-130.</i>
+                        
+                            <br><i></i>
+                                                    
+                        
+                      </p>
+                      
+                        <h6><mark><u>Technologies</u></mark></h6>
+                        
+                        <span class="badge badge-secondary mr-1" style="background-color:Black;">python</span>
+                        
+                        <span class="badge badge-secondary mr-1" style="background-color:Black;">c++</span>
+                        
+                        <span class="badge badge-secondary mr-1" style="background-color:Black;">DNS</span>
+                        
+                        <span class="badge badge-secondary mr-1" style="background-color:Black;">machine learning</span>
+                        
+                                          
+                    </div>
+                  </div>
+                  
+                  <div class="media mt-2">
+                    <a href=""><img src="/zhulu-cv/assets/img/icons/icon_small/McMaster.jpg" class="mr-3 mb-2 img-thumbnail border-0" alt="..."></a>
+                    <div class="media-body">
+                      <h5 class="mt-0"><a href="" class="highlighted">Investigation of crystallization kinetics in industrial semi-batched reactors</a></h5>
+                      <h6><b>@Dept. of Chemical Engineering, McMaster University</b> 
+                      <i>(  
+                                              
+                            May 2020 -         
+                         
+                                              
+                            May 2021       
+                           
+                      )</i></h6>                         
+                      <p>In this project, we worked with our industrial counterparts to investigate the crystalization process in lab- and industry-level semi-batched reactors. The mixing performance is investigated by CFD technology. The crystallization kinetics is understanded using the population balance models and data-driven models. The project is supervised by Dr. Li Xi and Prof. Prashant Mhaskar.
+
+                        
+                      </p>
+                      
+                        <h6><mark><u>Technologies</u></mark></h6>
+                        
+                        <span class="badge badge-secondary mr-1" style="background-color:Black;">python</span>
+                        
+                        <span class="badge badge-secondary mr-1" style="background-color:Black;">RANS</span>
+                        
+                        <span class="badge badge-secondary mr-1" style="background-color:Black;">Ansys</span>
+                        
+                        <span class="badge badge-secondary mr-1" style="background-color:Black;">crystallization kinetic model</span>
+                        
+                        <span class="badge badge-secondary mr-1" style="background-color:Black;">data-driven modeling</span>
+                        
+                                          
+                    </div>
+                  </div>
+                  
+                  <div class="media mt-2">
+                    <a href=""><img src="/zhulu-cv/assets/img/icons/icon_small/ECUST.jpg" class="mr-3 mb-2 img-thumbnail border-0" alt="..."></a>
+                    <div class="media-body">
+                      <h5 class="mt-0"><a href="" class="highlighted">Study on the thermal and flow dynamics in a galvanizing zinc pot</a></h5>
+                      <h6><b>@Fluid Machinery and Engineering, East China University of Science and Technology</b> 
+                      <i>(  
+                                              
+                            Sep 2012 -         
+                         
+                                              
+                            Jun 2015       
+                           
+                      )</i></h6>                         
+                      <p>This project aims to analyze the thermal and flow behaviors in a galvanizing zinc pot, in order to achieve an optimal coating performance. A muti-physics system is built which couples the electromagnetic field with the flow and thermal fields to approach the realistic condition. The project is supervised by Prof. Huanxin Lai.
+
+                        
+                      </p>
+                      
+                        <h6><mark><u>Technologies</u></mark></h6>
+                        
+                        <span class="badge badge-secondary mr-1" style="background-color:Black;">python</span>
+                        
+                        <span class="badge badge-secondary mr-1" style="background-color:Black;">RANS</span>
+                        
+                        <span class="badge badge-secondary mr-1" style="background-color:Black;">Ansys</span>
+                        
+                        <span class="badge badge-secondary mr-1" style="background-color:Black;">crystallization kinetic model</span>
+                        
+                        <span class="badge badge-secondary mr-1" style="background-color:Black;">data-driven modeling</span>
+                        
+                                          
+                    </div>
+                  </div>
+                  
+                </div>        
+              </div>
+            
+          
+        
+      </div>
+  </div>
+</div>
+
+
+
+<!-- ANIMATE.JS ANIMATE LIBRARY
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous"></script>
+-->
+
+
+<!--JS FUNCTION FOR RECENT WORK SECTION -->
+<script>
+    $('#test-list a').on('click', function (e) {
+    e.preventDefault()
+    $(this).tab('show')
+    })
+</script> 
+
+<!-- OPTIONAL TOAST JS FUNCTION-->
+<script>
+    $(document).ready(function() {
+        $(".toast").toast("show");
+    });
+</script>
+
+
+<script>
+$('body').scrollspy({ target: '#list-example' })
+</script>
+
+<script>
+$('.collapse').collapse()
+</script>
+
+<script>
+$('.show').show()
+</script>
+
+    </div>
+    <div class="dumbarton-spacer"></div>
+    <div class="navbar navbar-default navbar-fixed-bottom">
+  <div class="container">
+    <p class="navbar-text pull-left">© 2020 - Theme Built By Tyler Butler, See it on
+        <a href="https://github.com/tcbutler320/Jekyll-Theme-Dumbarton" target="_blank" >GitHub</a>
+    </p>
+    <p class="navbar-text pull-right">
+            <!-- Displays Social Media Icons based on _config.yml settings -->
+
+<span style="color: Black;">
+     
+    
+        <a href="https://github.com/luzhu24">
+        <span style="color: black;">
+            <i class="fab fa-github-square fa-lg"></i></a>
+        </span>
+    
+    
+        <a href="https://www.linkedin.com/in/lu-zhu-i2">
+        <span style="color: black;">
+            <i class="fab fa-linkedin fa-lg"></i></a>
+        </span>
+    
+    
+    
+    
+     
+    <i> &nbsp;&nbsp; </i>
+</span>
+
+    </p>
+  </div>
+</div> 
+
+<script>
+  $(function () {
+    $('[data-toggle="popover"]').popover()
+  })
+</script>
+  </body>
+</html>
